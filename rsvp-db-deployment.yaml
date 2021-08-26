@@ -6,14 +6,14 @@ spec:
   replicas: 1
   selector: 
    matchLabels: 
-    appdb: rsvpdb
+    appdb: rsvpdb2
   template:
     metadata:
       labels:
-        appdb: rsvpdb
+        appdbs: rsvpdb2
     spec: 
       containers:
-      - name: rsvpd-db
+      - name: rsvpd-db2
         image: mongo:3.3
         env:
         - name: MONGODB_DATABASE
