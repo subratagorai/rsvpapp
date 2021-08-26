@@ -10,14 +10,14 @@ spec:
   template:
     metadata:
       labels:
-        app: rsvp
+        app: rsvp1
     spec:
       containers:
       - name: rsvp-app
         image: teamcloudyuga/rsvpapp
         env:
         - name: MONGODB_HOST
-          value: mongodb
+          value: mongodbst
         ports:
         - containerPort: 5000
           name: web-port
