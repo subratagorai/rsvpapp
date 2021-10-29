@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
       - name: rsvpd-db2
-        image: mongo:3.3
+        image: quay.io/mayank123modi/mongodb 
         env:
         - name: MONGODB_DATABASE
           value: rsvpdata
