@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rsvp-app
-        image: teamcloudyuga/rsvpapp
+        image: quay.io/mayank123modi/rsvpapp
         env:
         - name: MONGODB_HOST
           value: mongodbst
