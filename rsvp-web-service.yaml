@@ -8,8 +8,8 @@ spec:
   type: NodePort
   ports:
   - name: tcp-31081-5000
-    nodePort: 31081
-    port: 5001
+    nodePort: 32456
+    port: 5000
     protocol: TCP
   selector:
-    app: rsvpdw
+    app: rsvp

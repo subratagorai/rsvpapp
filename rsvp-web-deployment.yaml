@@ -10,14 +10,14 @@ spec:
   template:
     metadata:
       labels:
-        app: rsvp1
+        app: rsvp
     spec:
       containers:
       - name: rsvp-app
         image: quay.io/mayank123modi/rsvpapp
         env:
         - name: MONGODB_HOST
-          value: mongodbst
+          value: mongocvdbertg 
         ports:
         - containerPort: 5000
           name: web-port
