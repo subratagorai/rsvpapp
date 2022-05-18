@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        appdbs: rsvpdb2
+        appdb: rsvpdb2
     spec: 
       containers:
       - name: rsvpd-db2
