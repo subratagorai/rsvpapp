@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: mongocvdbertg
   labels:
-    app: rsvpdb
+    app: rsvpdb2
 spec:
   ports:
   - port: 27017
     protocol: TCP
+    targetPort: 27017  
   selector:
- appdbs: rsvpdbs
+   appdb: rsvpdb2
